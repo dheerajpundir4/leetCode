@@ -1,0 +1,8 @@
+2 square 4 -->2 square 4
+3 square 9 -->3 square 9
+4 square 16 -->4 square 16
+5 square 25 -->5 square 25
+6 square 36 -->6 square 36
+7 square 49 -->7 square 49
+8 square 64 -->8 square 64
+9 square 81 -->9 square 81

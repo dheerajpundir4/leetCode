@@ -1,0 +1,24 @@
+The Abstract Factory Pattern is a creational design pattern
+that provides an interface for creating families of related or dependent objects
+without specifying their concrete classes,
+in simpler terms the Abstract Factory Pattern
+is a way of organizing how you create groups of things that are related to each other.
+
+
+Abstract Factory example
+Imagine you’re managing a global car manufacturing company.
+You want to design a system to create cars with specific configurations for different regions,
+such as North America and Europe.
+Each region may have unique requirements and regulations,
+and you want to ensure that cars produced for each region meet those standards.
+
+What can be the challenges while implementing this system?
+
+One challenge can be designing cars with specific features and configurations for different regions.
+
+The other main challenge is to ensure consistency in the production of cars
+and their specifications within each region.
+Adapting the system to changes in regulations or
+introducing new features for a specific region becomes challenging.
+Modifications would need to be made in multiple places,
+increasing the chances of introducing bugs and making the system more prone to errors.

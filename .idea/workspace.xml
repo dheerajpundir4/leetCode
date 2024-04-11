@@ -1,16 +1,38 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/BuyAndSellStock/BuyAndSellStock1.java" beforeDir="false" />
+    <list default="true" id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="generate Parenthesis">
+      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesingPattern/AbstractDesignPattern/CarFactoryClient.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesingPattern/AbstractDesignPattern/ReadMe" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/FileReadWriteExample.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/File/GenerateData.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/MainClass.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/Solution.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Java8/SolutionSingleton.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/selfPracticeTree/BinaryTree.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ReadFile.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/SubArrayProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UniqueNoOfOccurence/UniqueNoOFOccurence.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -71,13 +93,28 @@
       </pane>
     </panes>
   </component>
-  <component name="RunManager" selected="Application.LinkList">
-    <configuration name="LinkList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DataStructure.LinkListImp.LinkList" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.0" />
+    <property name="project.structure.side.proportion" value="0.0" />
+    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+  </component>
+  <component name="RunManager" selected="Application.CarFactoryClient">
+    <configuration name="CarFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesingPattern.AbstractDesignPattern.CarFactoryClient" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DataStructure.LinkListImp.*" />
+          <option name="PATTERN" value="DesingPattern.AbstractDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -85,35 +122,135 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true">
-      <option name="MAIN_CLASS_NAME" value="com.company.Main" />
+    <configuration name="FileReadWriteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="File.FileReadWriteExample" />
       <module name="untitled104" />
-      <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
-      <RunnerSettings RunnerId="Run" />
-      <ConfigurationWrapper RunnerId="Run" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="File.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.MainClass" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.Solution" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Java8.Solution2" />
+      <module name="untitled104" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Java8.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Main" />
-      <item itemvalue="Application.LinkList" />
+      <item itemvalue="Application.FileReadWriteExample" />
+      <item itemvalue="Application.Solution (1)" />
+      <item itemvalue="Application.Solution2" />
+      <item itemvalue="Application.MainClass" />
+      <item itemvalue="Application.CarFactoryClient" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.LinkList" />
-        <item itemvalue="Application.Main" />
+        <item itemvalue="Application.CarFactoryClient" />
+        <item itemvalue="Application.MainClass" />
+        <item itemvalue="Application.Solution2" />
+        <item itemvalue="Application.Solution (1)" />
+        <item itemvalue="Application.FileReadWriteExample" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
+      <changelist id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="Three Sum Leet code" />
       <created>1653546299004</created>
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1653546299004</updated>
     </task>
+    <task id="LOCAL-00001" summary="Three Sum Leet code">
+      <created>1655827758104</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1655827758104</updated>
+    </task>
+    <task id="LOCAL-00002" summary="generate Parenthesis">
+      <created>1703259161220</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1703259161220</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="oldMeFiltersMigrated" value="true" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Three Sum Leet code" />
+    <MESSAGE value="generate Parenthesis" />
+    <option name="LAST_COMMIT_MESSAGE" value="generate Parenthesis" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+          <line>9</line>
+          <properties class="Solution" method="main">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/File/FileReadWriteExample.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
