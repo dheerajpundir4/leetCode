@@ -5,22 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="generate Parenthesis">
-      <change afterPath="$PROJECT_DIR$/src/Client.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Demo.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/AbstractDesignPattern/CarFactoryClient.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/AbstractDesignPattern/ReadMe" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/FileReadWriteExample.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/File/GenerateData.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8/MainClass.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8/Solution.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Java8/SolutionSingleton.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/selfPracticeTree/BinaryTree.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/tree/BinaryTree.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/ReadFile.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/SubArrayProblem.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/untitled104.iml" beforeDir="false" afterPath="$PROJECT_DIR$/untitled104.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/DesingPattern/FactoryDesignPattern/FactoryDesignPattern Read me" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +93,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.CarFactoryClient">
+  <component name="RunManager" selected="Application.FactoryDesignPattern">
     <configuration name="CarFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesingPattern.AbstractDesignPattern.CarFactoryClient" />
       <module name="untitled104" />
@@ -122,12 +107,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FileReadWriteExample" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="File.FileReadWriteExample" />
+    <configuration name="FactoryDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DesingPattern.FactoryDesignPattern.FactoryDesignPattern" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="File.*" />
+          <option name="PATTERN" value="DesingPattern.FactoryDesignPattern.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -175,19 +160,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.FileReadWriteExample" />
       <item itemvalue="Application.Solution (1)" />
       <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.CarFactoryClient" />
+      <item itemvalue="Application.FactoryDesignPattern" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.FactoryDesignPattern" />
         <item itemvalue="Application.CarFactoryClient" />
         <item itemvalue="Application.MainClass" />
         <item itemvalue="Application.Solution2" />
         <item itemvalue="Application.Solution (1)" />
-        <item itemvalue="Application.FileReadWriteExample" />
       </list>
     </recent_temporary>
   </component>
