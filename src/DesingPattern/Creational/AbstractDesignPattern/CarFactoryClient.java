@@ -1,5 +1,16 @@
-package DesingPattern.AbstractDesignPattern;
+package DesingPattern.Creational.AbstractDesignPattern;
+
 //https://www.geeksforgeeks.org/abstract-factory-pattern/
+// Abstract Product Interface for Cars
+interface Car {
+    void assemble();
+}
+
+// Abstract Product Interface for Car Specifications
+interface CarSpecification {
+    void display();
+}
+
 // Abstract Factory Interface
 interface CarFactory {
     Car createCar();
@@ -28,15 +39,7 @@ class EuropeCarFactory implements CarFactory {
     }
 }
 
-// Abstract Product Interface for Cars
-interface Car {
-    void assemble();
-}
 
-// Abstract Product Interface for Car Specifications
-interface CarSpecification {
-    void display();
-}
 
 // Concrete Product for Sedan Car
 class Sedan implements Car {
@@ -68,6 +71,7 @@ class EuropeSpecification implements CarSpecification {
 
 
 // Client Code
+//CarFactoryClient
 public class CarFactoryClient {
     public static void main(String[] args) {
         // Creating cars for North America

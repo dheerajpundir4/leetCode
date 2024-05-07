@@ -1,4 +1,4 @@
-package DesingPattern.FactoryDesignPattern;
+package DesingPattern.Creational.FactoryDesignPattern;
 
 // Library classes
 abstract class Vehicle {
