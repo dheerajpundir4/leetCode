@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="generate Parenthesis">
-      <change afterPath="$PROJECT_DIR$/src/ProblemDSA1/FlipKartSuggestionProblem.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemDSA1/MinimumJump.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -94,7 +94,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.KnapSack01">
+  <component name="RunManager" selected="Application.MinimumJump">
     <configuration name="CarFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesingPattern.Creational.AbstractDesignPattern.CarFactoryClient" />
       <module name="untitled104" />
@@ -108,12 +108,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FactoryDesignPattern" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="DesingPattern.Creational.AbstractDesignPattern.FactoryDesignPattern.FactoryDesignPattern" />
+    <configuration name="KnapSack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.KnapSack01" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="DesingPattern.Creational.FactoryDesignPattern.*" />
+          <option name="PATTERN" value="ProblemDSA1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -121,8 +121,8 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="KnapSack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.KnapSack01" />
+    <configuration name="MinimumJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.MinimumJump" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
@@ -162,18 +162,18 @@
     </configuration>
     <list>
       <item itemvalue="Application.CarFactoryClient" />
-      <item itemvalue="Application.FactoryDesignPattern" />
       <item itemvalue="Application.TestBuilder" />
       <item itemvalue="Application.TargetSum" />
       <item itemvalue="Application.KnapSack01" />
+      <item itemvalue="Application.MinimumJump" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.MinimumJump" />
         <item itemvalue="Application.KnapSack01" />
         <item itemvalue="Application.TargetSum" />
         <item itemvalue="Application.TestBuilder" />
         <item itemvalue="Application.CarFactoryClient" />
-        <item itemvalue="Application.FactoryDesignPattern" />
       </list>
     </recent_temporary>
   </component>
@@ -230,6 +230,14 @@
             <option name="EMULATED" value="true" />
           </properties>
           <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/ProblemDSA1/MinimumJump.java</url>
+          <line>59</line>
+          <properties class="ProblemDSA1.MinimumJump" method="findJumpwithVisited">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/File/FileReadWriteExample.java</url>
