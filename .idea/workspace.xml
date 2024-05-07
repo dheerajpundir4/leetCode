@@ -5,47 +5,18 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="generate Parenthesis">
-      <change afterPath="$PROJECT_DIR$/src/DSA/Moris.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/BuilderDesignPattern/BuilderDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/FactoryDesignPattern/diff Factory and Abstract.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/FactoryDesignPattern/link" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/PrototypeDesignPattern/PrototypeDesignPattern.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/PrototypeDesignPattern/Read me Prototype design pattern" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/PrototypeDesignPattern/img.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iscreen/router/constant/DefaultValues.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iscreen/router/constant/JsonPath.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iscreen/router/constant/MandatoryFields.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/com/iscreen/router/constant/RequestValues.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemDSA1/TargetSum.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/Car.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/CarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/CarFactoryClient.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/CarSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/EuropeCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/EuropeSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/Hatchback.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/NorthAmericaCarFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/NorthAmericaSpecification.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/ReadMe" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/Sedan.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/AbstractDesignPattern/img.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/Client.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/FactoryDesignPattern Read me" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/FactoryDesignPattern.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/FourWheeler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/FourWheelerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/TwoWheeler.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/TwoWheelerFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/Vehicle.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/VehicleFactory.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/FactoryDesignPattern/With out Factory design Pattern" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesingPattern/AbstractDesignPattern/CarFactoryClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/AbstractDesignPattern/CarFactoryClient.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesingPattern/AbstractDesignPattern/ReadMe" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/AbstractDesignPattern/ReadMe" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesingPattern/AbstractDesignPattern/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/AbstractDesignPattern/img.png" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesingPattern/FactoryDesignPattern/FactoryDesignPattern Read me" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern Read me" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesingPattern/FactoryDesignPattern/FactoryDesignPattern.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesingPattern/FactoryDesignPattern/With out Factory design Pattern" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/FactoryDesignPattern/With out Factory design Pattern" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DesingPattern/FactoryDesignPattern/img.png" beforeDir="false" afterPath="$PROJECT_DIR$/src/DesingPattern/Creational/FactoryDesignPattern/img.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactoryClient.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeCarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Hatchback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Hatchback.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaCarFactory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaSpecification.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Sedan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Sedan.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$EmployeeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$EmployeeBuilder.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/TestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/TestBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -133,7 +104,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.TestBuilder">
+  <component name="RunManager" selected="Application.TargetSum">
     <configuration name="CarFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesingPattern.Creational.AbstractDesignPattern.CarFactoryClient" />
       <module name="untitled104" />
@@ -173,12 +144,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Solution2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.Solution2" />
+    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.TargetSum" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.*" />
+          <option name="PATTERN" value="ProblemDSA1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -200,19 +171,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution2" />
       <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.CarFactoryClient" />
       <item itemvalue="Application.FactoryDesignPattern" />
       <item itemvalue="Application.TestBuilder" />
+      <item itemvalue="Application.TargetSum" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.TargetSum" />
         <item itemvalue="Application.TestBuilder" />
         <item itemvalue="Application.CarFactoryClient" />
         <item itemvalue="Application.FactoryDesignPattern" />
         <item itemvalue="Application.MainClass" />
-        <item itemvalue="Application.Solution2" />
       </list>
     </recent_temporary>
   </component>
