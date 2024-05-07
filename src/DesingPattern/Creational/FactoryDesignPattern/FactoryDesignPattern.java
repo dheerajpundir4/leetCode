@@ -53,7 +53,7 @@ class Client {
 
 
 
-
+//https://www.linkedin.com/advice/0/what-differences-between-factory-abstract-design-patterns#:~:text=The%20Factory%20pattern%20deals%20with,the%20number%20of%20classes%20involved.
 public class FactoryDesignPattern {
     public static void main(String[] args) {
         VehicleFactory twoWheelerFactory = new TwoWheelerFactory();
