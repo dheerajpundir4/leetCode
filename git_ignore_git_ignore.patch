@@ -1,0 +1,1059 @@
+Index: .gitignore
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.gitignore b/.gitignore
+--- a/.gitignore	(revision 18e47de2ece305482018f1e2a516512a1b7d0e4e)
++++ b/.gitignore	(revision 2fa2ca6048f69c69bbe8435e7d0515b9076d9b42)
+@@ -1,0 +1,27 @@
++# Compiled class file
++*.class
++
++# Log file
++*.log
++
++# BlueJ files
++*.ctxt
++
++# Mobile Tools for Java (J2ME)
++.mtj.tmp/
++
++# Package Files #
++*.jar
++*.war
++*.nar
++*.ear
++*.zip
++*.tar.gz
++*.rar
++*.idea
++*out
++
++# virtual machine crash logs, see http://www.java.com/en/download/help/error_hotspot.xml
++hs_err_pid*debug.log
++/out/
++/.idea/
+Index: .idea/description.html
+===================================================================
+diff --git a/.idea/description.html b/.idea/description.html
+deleted file mode 100644
+--- a/.idea/description.html	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,1 +0,0 @@
+-<html>Simple <b>Java</b> application that includes a class with <code>main()</code> method</html>
+\ No newline at end of file
+Index: .idea/misc.xml
+===================================================================
+diff --git a/.idea/misc.xml b/.idea/misc.xml
+deleted file mode 100644
+--- a/.idea/misc.xml	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,12 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="EntryPointsManager">
+-    <entry_points version="2.0" />
+-  </component>
+-  <component name="ProjectKey">
+-    <option name="state" value="project://e2804f05-5315-4fc6-a121-c522a6c26470" />
+-  </component>
+-  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_8" default="true" project-jdk-name="liberica-1.8" project-jdk-type="JavaSDK">
+-    <output url="file://$PROJECT_DIR$/out" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/modules.xml
+===================================================================
+diff --git a/.idea/modules.xml b/.idea/modules.xml
+deleted file mode 100644
+--- a/.idea/modules.xml	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,9 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="ProjectModuleManager">
+-    <modules>
+-      <module fileurl="file://$PROJECT_DIR$/untitled104.iml" filepath="$PROJECT_DIR$/untitled104.iml" />
+-    </modules>
+-  </component>
+-</project>
+-
+Index: .idea/project-template.xml
+===================================================================
+diff --git a/.idea/project-template.xml b/.idea/project-template.xml
+deleted file mode 100644
+--- a/.idea/project-template.xml	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,3 +0,0 @@
+-<template>
+-  <input-field default="com.company">IJ_BASE_PACKAGE</input-field>
+-</template>
+\ No newline at end of file
+Index: .idea/runConfigurations.xml
+===================================================================
+diff --git a/.idea/runConfigurations.xml b/.idea/runConfigurations.xml
+deleted file mode 100644
+--- a/.idea/runConfigurations.xml	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,10 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="RunConfigurationProducerService">
+-    <option name="ignoredProducers">
+-      <set>
+-        <option value="com.android.tools.idea.compose.preview.runconfiguration.ComposePreviewRunConfigurationProducer" />
+-      </set>
+-    </option>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/uiDesigner.xml
+===================================================================
+diff --git a/.idea/uiDesigner.xml b/.idea/uiDesigner.xml
+deleted file mode 100644
+--- a/.idea/uiDesigner.xml	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,124 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="Palette2">
+-    <group name="Swing">
+-      <item class="com.intellij.uiDesigner.HSpacer" tooltip-text="Horizontal Spacer" icon="/com/intellij/uiDesigner/icons/hspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="1" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="com.intellij.uiDesigner.VSpacer" tooltip-text="Vertical Spacer" icon="/com/intellij/uiDesigner/icons/vspacer.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="1" anchor="0" fill="2" />
+-      </item>
+-      <item class="javax.swing.JPanel" icon="/com/intellij/uiDesigner/icons/panel.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JScrollPane" icon="/com/intellij/uiDesigner/icons/scrollPane.png" removable="false" auto-create-binding="false" can-attach-label="true">
+-        <default-constraints vsize-policy="7" hsize-policy="7" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JButton" icon="/com/intellij/uiDesigner/icons/button.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="0" fill="1" />
+-        <initial-values>
+-          <property name="text" value="Button" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JRadioButton" icon="/com/intellij/uiDesigner/icons/radioButton.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="RadioButton" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JCheckBox" icon="/com/intellij/uiDesigner/icons/checkBox.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="3" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="CheckBox" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JLabel" icon="/com/intellij/uiDesigner/icons/label.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="8" fill="0" />
+-        <initial-values>
+-          <property name="text" value="Label" />
+-        </initial-values>
+-      </item>
+-      <item class="javax.swing.JTextField" icon="/com/intellij/uiDesigner/icons/textField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JPasswordField" icon="/com/intellij/uiDesigner/icons/passwordField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JFormattedTextField" icon="/com/intellij/uiDesigner/icons/formattedTextField.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1">
+-          <preferred-size width="150" height="-1" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextArea" icon="/com/intellij/uiDesigner/icons/textArea.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTextPane" icon="/com/intellij/uiDesigner/icons/textPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JEditorPane" icon="/com/intellij/uiDesigner/icons/editorPane.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JComboBox" icon="/com/intellij/uiDesigner/icons/comboBox.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="2" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JTable" icon="/com/intellij/uiDesigner/icons/table.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JList" icon="/com/intellij/uiDesigner/icons/list.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="2" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTree" icon="/com/intellij/uiDesigner/icons/tree.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3">
+-          <preferred-size width="150" height="50" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JTabbedPane" icon="/com/intellij/uiDesigner/icons/tabbedPane.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSplitPane" icon="/com/intellij/uiDesigner/icons/splitPane.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="3" hsize-policy="3" anchor="0" fill="3">
+-          <preferred-size width="200" height="200" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JSpinner" icon="/com/intellij/uiDesigner/icons/spinner.png" removable="false" auto-create-binding="true" can-attach-label="true">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSlider" icon="/com/intellij/uiDesigner/icons/slider.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="8" fill="1" />
+-      </item>
+-      <item class="javax.swing.JSeparator" icon="/com/intellij/uiDesigner/icons/separator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="6" anchor="0" fill="3" />
+-      </item>
+-      <item class="javax.swing.JProgressBar" icon="/com/intellij/uiDesigner/icons/progressbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JToolBar" icon="/com/intellij/uiDesigner/icons/toolbar.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="6" anchor="0" fill="1">
+-          <preferred-size width="-1" height="20" />
+-        </default-constraints>
+-      </item>
+-      <item class="javax.swing.JToolBar$Separator" icon="/com/intellij/uiDesigner/icons/toolbarSeparator.png" removable="false" auto-create-binding="false" can-attach-label="false">
+-        <default-constraints vsize-policy="0" hsize-policy="0" anchor="0" fill="1" />
+-      </item>
+-      <item class="javax.swing.JScrollBar" icon="/com/intellij/uiDesigner/icons/scrollbar.png" removable="false" auto-create-binding="true" can-attach-label="false">
+-        <default-constraints vsize-policy="6" hsize-policy="0" anchor="0" fill="2" />
+-      </item>
+-    </group>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/vcs.xml
+===================================================================
+diff --git a/.idea/vcs.xml b/.idea/vcs.xml
+deleted file mode 100644
+--- a/.idea/vcs.xml	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,6 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="VcsDirectoryMappings">
+-    <mapping directory="$PROJECT_DIR$" vcs="Git" />
+-  </component>
+-</project>
+\ No newline at end of file
+Index: .idea/workspace.xml
+IDEA additional info:
+Subsystem: com.intellij.openapi.diff.impl.patch.CharsetEP
+<+>UTF-8
+===================================================================
+diff --git a/.idea/workspace.xml b/.idea/workspace.xml
+deleted file mode 100644
+--- a/.idea/workspace.xml	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,250 +0,0 @@
+-<?xml version="1.0" encoding="UTF-8"?>
+-<project version="4">
+-  <component name="AutoImportSettings">
+-    <option name="autoReloadType" value="SELECTIVE" />
+-  </component>
+-  <component name="ChangeListManager">
+-    <list default="true" id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="generate Parenthesis">
+-      <change afterPath="$PROJECT_DIR$/src/ProblemDSA1/MinimumJump.java" afterDir="false" />
+-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+-    </list>
+-    <option name="SHOW_DIALOG" value="false" />
+-    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+-    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+-    <option name="LAST_RESOLUTION" value="IGNORE" />
+-  </component>
+-  <component name="FileTemplateManagerImpl">
+-    <option name="RECENT_TEMPLATES">
+-      <list>
+-        <option value="Class" />
+-      </list>
+-    </option>
+-  </component>
+-  <component name="Git.Settings">
+-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+-  </component>
+-  <component name="ProjectId" id="29gsw9cWSmnK9a7OXf6dBGXS7u1" />
+-  <component name="ProjectView">
+-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+-      <flattenPackages />
+-      <showMembers />
+-      <showModules />
+-      <showLibraryContents />
+-      <hideEmptyPackages />
+-      <abbreviatePackageNames />
+-      <autoscrollToSource />
+-      <autoscrollFromSource />
+-      <sortByType />
+-    </navigator>
+-    <panes>
+-      <pane id="Scope" />
+-      <pane id="PackagesPane" />
+-      <pane id="ProjectPane">
+-        <subPane>
+-          <PATH>
+-            <PATH_ELEMENT>
+-              <option name="myItemId" value="untitled104" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+-            </PATH_ELEMENT>
+-          </PATH>
+-          <PATH>
+-            <PATH_ELEMENT>
+-              <option name="myItemId" value="untitled104" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+-            </PATH_ELEMENT>
+-            <PATH_ELEMENT>
+-              <option name="myItemId" value="untitled104" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+-            </PATH_ELEMENT>
+-          </PATH>
+-          <PATH>
+-            <PATH_ELEMENT>
+-              <option name="myItemId" value="untitled104" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+-            </PATH_ELEMENT>
+-            <PATH_ELEMENT>
+-              <option name="myItemId" value="untitled104" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+-            </PATH_ELEMENT>
+-            <PATH_ELEMENT>
+-              <option name="myItemId" value="src" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+-            </PATH_ELEMENT>
+-            <PATH_ELEMENT>
+-              <option name="myItemId" value="company" />
+-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+-            </PATH_ELEMENT>
+-          </PATH>
+-        </subPane>
+-      </pane>
+-    </panes>
+-  </component>
+-  <component name="ProjectViewState">
+-    <option name="hideEmptyMiddlePackages" value="true" />
+-    <option name="showLibraryContents" value="true" />
+-  </component>
+-  <component name="PropertiesComponent">
+-    <property name="Downloaded.Files.Path.Enabled" value="false" />
+-    <property name="Repository.Attach.Annotations" value="false" />
+-    <property name="Repository.Attach.JavaDocs" value="false" />
+-    <property name="Repository.Attach.Sources" value="false" />
+-    <property name="project.structure.last.edited" value="Modules" />
+-    <property name="project.structure.proportion" value="0.0" />
+-    <property name="project.structure.side.proportion" value="0.0" />
+-    <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
+-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+-  </component>
+-  <component name="RunManager" selected="Application.MinimumJump">
+-    <configuration name="CarFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="DesingPattern.Creational.AbstractDesignPattern.CarFactoryClient" />
+-      <module name="untitled104" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="DesingPattern.Creational.AbstractDesignPattern.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="KnapSack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.KnapSack01" />
+-      <module name="untitled104" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="ProblemDSA1.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="MinimumJump" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.MinimumJump" />
+-      <module name="untitled104" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="ProblemDSA1.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TargetSum" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.TargetSum" />
+-      <module name="untitled104" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="ProblemDSA1.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <configuration name="TestBuilder" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+-      <option name="MAIN_CLASS_NAME" value="DesingPattern.Creational.BuilderDesignPattern.TestBuilder" />
+-      <module name="untitled104" />
+-      <extension name="coverage">
+-        <pattern>
+-          <option name="PATTERN" value="DesingPattern.Creational.BuilderDesignPattern.*" />
+-          <option name="ENABLED" value="true" />
+-        </pattern>
+-      </extension>
+-      <method v="2">
+-        <option name="Make" enabled="true" />
+-      </method>
+-    </configuration>
+-    <list>
+-      <item itemvalue="Application.CarFactoryClient" />
+-      <item itemvalue="Application.TestBuilder" />
+-      <item itemvalue="Application.TargetSum" />
+-      <item itemvalue="Application.KnapSack01" />
+-      <item itemvalue="Application.MinimumJump" />
+-    </list>
+-    <recent_temporary>
+-      <list>
+-        <item itemvalue="Application.MinimumJump" />
+-        <item itemvalue="Application.KnapSack01" />
+-        <item itemvalue="Application.TargetSum" />
+-        <item itemvalue="Application.TestBuilder" />
+-        <item itemvalue="Application.CarFactoryClient" />
+-      </list>
+-    </recent_temporary>
+-  </component>
+-  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+-  <component name="TaskManager">
+-    <task active="true" id="Default" summary="Default task">
+-      <changelist id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="Three Sum Leet code" />
+-      <created>1653546299004</created>
+-      <option name="number" value="Default" />
+-      <option name="presentableId" value="Default" />
+-      <updated>1653546299004</updated>
+-    </task>
+-    <task id="LOCAL-00001" summary="Three Sum Leet code">
+-      <created>1655827758104</created>
+-      <option name="number" value="00001" />
+-      <option name="presentableId" value="LOCAL-00001" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1655827758104</updated>
+-    </task>
+-    <task id="LOCAL-00002" summary="generate Parenthesis">
+-      <created>1703259161220</created>
+-      <option name="number" value="00002" />
+-      <option name="presentableId" value="LOCAL-00002" />
+-      <option name="project" value="LOCAL" />
+-      <updated>1703259161220</updated>
+-    </task>
+-    <option name="localTasksCounter" value="3" />
+-    <servers />
+-  </component>
+-  <component name="Vcs.Log.Tabs.Properties">
+-    <option name="TAB_STATES">
+-      <map>
+-        <entry key="MAIN">
+-          <value>
+-            <State />
+-          </value>
+-        </entry>
+-      </map>
+-    </option>
+-    <option name="oldMeFiltersMigrated" value="true" />
+-  </component>
+-  <component name="VcsManagerConfiguration">
+-    <MESSAGE value="Three Sum Leet code" />
+-    <MESSAGE value="generate Parenthesis" />
+-    <option name="LAST_COMMIT_MESSAGE" value="generate Parenthesis" />
+-  </component>
+-  <component name="XDebuggerManager">
+-    <breakpoint-manager>
+-      <breakpoints>
+-        <line-breakpoint enabled="true" type="java-method">
+-          <url>file://$PROJECT_DIR$/src/Solution.java</url>
+-          <line>9</line>
+-          <properties class="Solution" method="main">
+-            <option name="EMULATED" value="true" />
+-          </properties>
+-          <option name="timeStamp" value="1" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" type="java-method">
+-          <url>file://$PROJECT_DIR$/src/ProblemDSA1/MinimumJump.java</url>
+-          <line>59</line>
+-          <properties class="ProblemDSA1.MinimumJump" method="findJumpwithVisited">
+-            <option name="EMULATED" value="true" />
+-          </properties>
+-          <option name="timeStamp" value="3" />
+-        </line-breakpoint>
+-        <line-breakpoint enabled="true" type="java-line">
+-          <url>file://$PROJECT_DIR$/src/File/FileReadWriteExample.java</url>
+-          <line>28</line>
+-          <option name="timeStamp" value="2" />
+-        </line-breakpoint>
+-      </breakpoints>
+-    </breakpoint-manager>
+-  </component>
+-</project>
+\ No newline at end of file
+Index: out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/ReadMe
+===================================================================
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/ReadMe b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/ReadMe
+deleted file mode 100644
+--- a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/ReadMe	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,24 +0,0 @@
+-The Abstract Factory Pattern is a creational design pattern
+-that provides an interface for creating families of related or dependent objects
+-without specifying their concrete classes,
+-in simpler terms the Abstract Factory Pattern
+-is a way of organizing how you create groups of things that are related to each other.
+-
+-
+-Abstract Factory example
+-Imagine you’re managing a global car manufacturing company.
+-You want to design a system to create cars with specific configurations for different regions,
+-such as North America and Europe.
+-Each region may have unique requirements and regulations,
+-and you want to ensure that cars produced for each region meet those standards.
+-
+-What can be the challenges while implementing this system?
+-
+-One challenge can be designing cars with specific features and configurations for different regions.
+-
+-The other main challenge is to ensure consistency in the production of cars
+-and their specifications within each region.
+-Adapting the system to changes in regulations or
+-introducing new features for a specific region becomes challenging.
+-Modifications would need to be made in multiple places,
+-increasing the chances of introducing bugs and making the system more prone to errors.
+\ No newline at end of file
+Index: out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern Read me
+===================================================================
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern Read me b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern Read me
+deleted file mode 100644
+--- a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern Read me	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,4 +0,0 @@
+-Consider a software application that needs to handle the creation of various types of vehicles,
+-such as Two Wheelers, Three Wheelers, and Four Wheelers.
+-Each type of vehicle has its own specific properties and behaviors.
+-
+Index: out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/With out Factory design Pattern
+===================================================================
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/With out Factory design Pattern b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/With out Factory design Pattern
+deleted file mode 100644
+--- a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/With out Factory design Pattern	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,57 +0,0 @@
+-/*package whatever //do not write package name here */
+-
+-import java.io.*;
+-
+-// Library classes
+-abstract class Vehicle {
+-    public abstract void printVehicle();
+-}
+-
+-class TwoWheeler extends Vehicle {
+-    public void printVehicle() {
+-        System.out.println("I am two wheeler");
+-    }
+-}
+-
+-class FourWheeler extends Vehicle {
+-    public void printVehicle() {
+-        System.out.println("I am four wheeler");
+-    }
+-}
+-
+-// Client (or user) class
+-class Client {
+-    private Vehicle pVehicle;
+-
+-    public Client(int type) {
+-        if (type == 1) {
+-            pVehicle = new TwoWheeler();
+-        } else if (type == 2) {
+-            pVehicle = new FourWheeler();
+-        } else {
+-            pVehicle = null;
+-        }
+-    }
+-
+-    public void cleanup() {
+-        if (pVehicle != null) {
+-            pVehicle = null;
+-        }
+-    }
+-
+-    public Vehicle getVehicle() {
+-        return pVehicle;
+-    }
+-}
+-
+-// Driver program
+-public class GFG {
+-    public static void main(String[] args) {
+-        Client pClient = new Client(1);
+-        Vehicle pVehicle = pClient.getVehicle();
+-        if (pVehicle != null) {
+-            pVehicle.printVehicle();
+-        }
+-        pClient.cleanup();
+-    }
+-}
+Index: out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/link
+===================================================================
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/link b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/link
+deleted file mode 100644
+--- a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/link	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,1 +0,0 @@
+-https://www.linkedin.com/advice/0/what-differences-between-factory-abstract-design-patterns#:~:text=The%20Factory%20pattern%20deals%20with,the%20number%20of%20classes%20involved.
+Index: out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Read me Prototype design pattern
+===================================================================
+diff --git a/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Read me Prototype design pattern b/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Read me Prototype design pattern
+deleted file mode 100644
+--- a/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Read me Prototype design pattern	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
++++ /dev/null	(revision b1ad5a43e32b7f76e0ac0246a64685fc1c9dd45c)
+@@ -1,6 +0,0 @@
+-Suppose a user creates a document with a specific layout, fonts, and styling,
+-and wishes to crea  te similar documents with slight modifications.
+-
+-Instead of starting from scratch each time,
+-the user can use the Prototype pattern.
+-The original document becomes the prototype, and new documents are created by cloning this prototype. This approach ensures that the new documents inherit the structure and styling of the original document while allowing for customization.
+\ No newline at end of file
+diff --git a/out/production/untitled104/BuyAndSellStock/BuyAndSellStock1.class b/out/production/untitled104/BuyAndSellStock/BuyAndSellStock1.class
+deleted file mode 100644
+index 5883948e49b59dc8c6b175b6ba62f7394eb7dc24..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/BuyAndSellStock/Solution.class b/out/production/untitled104/BuyAndSellStock/Solution.class
+deleted file mode 100644
+index ef2bb16c3a6456de17e9cd485f1d6b9902ba2339..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/C.class b/out/production/untitled104/C.class
+deleted file mode 100644
+index 705dfa833fccb112334290c141eaa5e26d63b9db..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Client.class b/out/production/untitled104/Client.class
+deleted file mode 100644
+index 766284ba9daa169e2097f031e6d470e27df3c909..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DataStructure/LinkListImp/LinkList$Node.class b/out/production/untitled104/DataStructure/LinkListImp/LinkList$Node.class
+deleted file mode 100644
+index c6568ec0d44aec5a440e9fa243002092b363e12e..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DataStructure/LinkListImp/LinkList.class b/out/production/untitled104/DataStructure/LinkListImp/LinkList.class
+deleted file mode 100644
+index 02015b9539cc3253481f2619800e83f6bc29dcde..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Demo.class b/out/production/untitled104/Demo.class
+deleted file mode 100644
+index 07e6895673c0c44694875d9b826817e2057ac88f..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Car.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Car.class
+deleted file mode 100644
+index 167b475fc0107fb8dfeab6b182e114314cf2ce57..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactory.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactory.class
+deleted file mode 100644
+index 0ae43c4d3d8852a2df7704714ab273e5cb35de82..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactoryClient.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactoryClient.class
+deleted file mode 100644
+index ded6458d6f3091e9ce90fab97e5dd9f777dabf84..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarSpecification.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarSpecification.class
+deleted file mode 100644
+index 923fd166c9da7926afbd0d48f9fedf9bdb1d36da..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeCarFactory.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeCarFactory.class
+deleted file mode 100644
+index 4983d67ce1480c27d76b63f944a32ef517b8a63d..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeSpecification.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeSpecification.class
+deleted file mode 100644
+index 2d1d2d53954e726578ed450d2e4943c899bd8df9..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Hatchback.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Hatchback.class
+deleted file mode 100644
+index 13fc104e6265f3fedf546466954983063377d5ef..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaCarFactory.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaCarFactory.class
+deleted file mode 100644
+index 4dfd526f9799032fdf7ec9c9e70cbbfb44100068..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaSpecification.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaSpecification.class
+deleted file mode 100644
+index c724921e96c588bd883a5c8b89804afe12115de6..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Sedan.class b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Sedan.class
+deleted file mode 100644
+index a267b7e56db64c583edf8ceae4507442b56c4882..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/img.png b/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/img.png
+deleted file mode 100644
+index d1cc0edeb60dbd48da54b88a3ea7a0c2b09e4da9..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$1.class b/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$1.class
+deleted file mode 100644
+index 26ee438b0fe3c38f02cf2112fba6e717eddb5c45..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$EmployeeBuilder.class b/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$EmployeeBuilder.class
+deleted file mode 100644
+index b5d9c96d2c53da31f0f28591972f673b4c79ff0f..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee.class b/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee.class
+deleted file mode 100644
+index 4b4af6b961b9fc6a489444ce1929423d4db0900a..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/TestBuilder.class b/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/TestBuilder.class
+deleted file mode 100644
+index 75eeeeaa317e4cf3d303b0c49cf26320a412aeac..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/Client.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/Client.class
+deleted file mode 100644
+index 5074099f6727a773b55cd4a4a2d391444a69f63d..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FactoryDesignPattern.class
+deleted file mode 100644
+index 8ae755cf8679befb4d3ec033f247df60b967b520..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FourWheeler.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FourWheeler.class
+deleted file mode 100644
+index 7fb7dffcd357c3956d0691c810439c866424e1cf..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FourWheelerFactory.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/FourWheelerFactory.class
+deleted file mode 100644
+index 378f1e70744b011a8943174289bd67ba1265a607..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/TwoWheeler.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/TwoWheeler.class
+deleted file mode 100644
+index 056b14e2485e2e30d5d46d983d51d67ee68e64bd..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/TwoWheelerFactory.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/TwoWheelerFactory.class
+deleted file mode 100644
+index 959f6deb680147f1cfedd420622d5c5a80ec76b5..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/Vehicle.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/Vehicle.class
+deleted file mode 100644
+index 6fce893c93a10f66e9d7064411817b5a37db52f5..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/VehicleFactory.class b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/VehicleFactory.class
+deleted file mode 100644
+index 8920a4271bd0a11470e21e1a2a1b0d47e27b1efc..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/diff Factory and Abstract.png b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/diff Factory and Abstract.png
+deleted file mode 100644
+index 4c967b664e64a6ef34959a079b14786a5a374dab..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/img.png b/out/production/untitled104/DesingPattern/Creational/FactoryDesignPattern/img.png
+deleted file mode 100644
+index 56918f6fd8bccf3273ab8250ef1276deb9530b4f..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Circle.class b/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Circle.class
+deleted file mode 100644
+index 0d6279ed440a6862202a36ad5ef10de8e0d83f3d..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/PrototypeDesignPattern.class b/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/PrototypeDesignPattern.class
+deleted file mode 100644
+index 523e09fef10b51452d31482720e6016bc00a2a33..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Shape.class b/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/Shape.class
+deleted file mode 100644
+index 7d660dd9c73431714bafd12a2c1b006618034fd6..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/ShapeClient.class b/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/ShapeClient.class
+deleted file mode 100644
+index b2d1aa59ff8852df22d655274ea58980c2611c09..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/img.png b/out/production/untitled104/DesingPattern/Creational/PrototypeDesignPattern/img.png
+deleted file mode 100644
+index 7ce4d910244ebdfbc57d597fc92c8cf3c5071c83..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/File/FileReadWriteExample.class b/out/production/untitled104/File/FileReadWriteExample.class
+deleted file mode 100644
+index 6f603fde4eecd89de3e2402d5a1b57e83fd024d7..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/File/GenerateData.class b/out/production/untitled104/File/GenerateData.class
+deleted file mode 100644
+index 2b9d761a12cc061a9af14d57289b6a174e503d22..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/GenerateParentheses.class b/out/production/untitled104/GenerateParentheses.class
+deleted file mode 100644
+index dbde87aaaa29f8ff8701e878c243bb7dfc6c4533..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Java8/ClassDemo.class b/out/production/untitled104/Java8/ClassDemo.class
+deleted file mode 100644
+index 9979031e2d534f9f4452cbb4f793eb4fe482186f..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Java8/DemoInteface.class b/out/production/untitled104/Java8/DemoInteface.class
+deleted file mode 100644
+index 9a19272a32611850fe01a8d91fecae253dbc77f3..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Java8/MainClass.class b/out/production/untitled104/Java8/MainClass.class
+deleted file mode 100644
+index 7b088507985e009d3c864290a979e5061439fbb9..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Java8/Solution.class b/out/production/untitled104/Java8/Solution.class
+deleted file mode 100644
+index de71e431acb80b0a9f4b051030f89b39fb955f64..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Java8/SolutionSingleton.class b/out/production/untitled104/Java8/SolutionSingleton.class
+deleted file mode 100644
+index 150d78c6d25f4db54976bc0a4e7def620da1b2a2..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/P.class b/out/production/untitled104/P.class
+deleted file mode 100644
+index e9b2cfbf2de98848f377afff7bce700778d033fd..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/ProblemDSA1/KnapSack01.class b/out/production/untitled104/ProblemDSA1/KnapSack01.class
+deleted file mode 100644
+index 1fcb8f7999744fb8aaa2fcd3705e994d2ce2ec73..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/ProblemDSA1/MinimumJump$Pair.class b/out/production/untitled104/ProblemDSA1/MinimumJump$Pair.class
+deleted file mode 100644
+index 80a208d8a0691349746c5d9980b848d8a3598b7e..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/ProblemDSA1/MinimumJump.class b/out/production/untitled104/ProblemDSA1/MinimumJump.class
+deleted file mode 100644
+index a44c65a249a82b8bf9b8214249f73727d2c17746..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/ProblemDSA1/TargetSum.class b/out/production/untitled104/ProblemDSA1/TargetSum.class
+deleted file mode 100644
+index bd94f94658dfe1b81cb1451a9fd5e705dd1207ef..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Solution.class b/out/production/untitled104/Solution.class
+deleted file mode 100644
+index 2453a608c039b47c61527cbe5752949cb526ee37..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/Test.class b/out/production/untitled104/Test.class
+deleted file mode 100644
+index cb16371970293b619ffdaedf4e3ed08d7d365b6b..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/TwoPointer/Solution.class b/out/production/untitled104/TwoPointer/Solution.class
+deleted file mode 100644
+index fdbd08df529b3167f3a1b6eac0ce5b36509ab95b..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/UniqueNoOfOccurence/Solution.class b/out/production/untitled104/UniqueNoOfOccurence/Solution.class
+deleted file mode 100644
+index 90d41b2c83c14f418e7f0dd3d3884d19b3edd9fd..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/UniqueNoOfOccurence/UniqueNoOFOccurence.class b/out/production/untitled104/UniqueNoOfOccurence/UniqueNoOFOccurence.class
+deleted file mode 100644
+index 797b0067bbfcbe92e690acad110cbd9fbe3bd49e..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/selfPracticeTree/BinaryTree.class b/out/production/untitled104/selfPracticeTree/BinaryTree.class
+deleted file mode 100644
+index 4f319fad02f321d5ba797036d897933cd8d5efc8..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/selfPracticeTree/Node.class b/out/production/untitled104/selfPracticeTree/Node.class
+deleted file mode 100644
+index a07ab102a2b6787d969689efd6deea16c08d4b9e..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/tree/BinaryTree.class b/out/production/untitled104/tree/BinaryTree.class
+deleted file mode 100644
+index 832d4f49bb4898abfe30a264375e500faf9e30de..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+
+diff --git a/out/production/untitled104/tree/Node.class b/out/production/untitled104/tree/Node.class
+deleted file mode 100644
+index 43c3ee13969057a7d51707637da01ec36477c074..0000000000000000000000000000000000000000
+GIT binary patch
+literal 0
+Hc$@<O00001
+

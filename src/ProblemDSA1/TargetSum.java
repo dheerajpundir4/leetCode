@@ -12,7 +12,7 @@ target sum
 Time complexity to generate all the subset O(N*2^N)
  */
 public class TargetSum {
-    public static void main(String[] args) {
+    public static void main(String[] args){
         int []arr=new int[]{3,34,4,12,5,2};
         int []target=new int[]{1,9,10,14};
         HashMap<String,Boolean> hashMap=new HashMap<>();
