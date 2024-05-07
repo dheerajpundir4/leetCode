@@ -5,18 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3eec9f8b-6685-47f1-91fe-79f66f186ccb" name="Changes" comment="generate Parenthesis">
-      <change afterPath="$PROJECT_DIR$/src/ProblemDSA1/TargetSum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/ProblemDSA1/FlipKartSuggestionProblem.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactoryClient.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/CarFactoryClient.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeCarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/EuropeSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Hatchback.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Hatchback.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaCarFactory.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaCarFactory.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaSpecification.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/NorthAmericaSpecification.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Sedan.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/AbstractDesignPattern/Sedan.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$EmployeeBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee$EmployeeBuilder.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/Employee.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/TestBuilder.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/untitled104/DesingPattern/Creational/BuilderDesignPattern/TestBuilder.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -104,7 +94,7 @@
     <property name="run.code.analysis.last.selected.profile" value="pProject Default" />
     <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
   </component>
-  <component name="RunManager" selected="Application.TargetSum">
+  <component name="RunManager" selected="Application.KnapSack01">
     <configuration name="CarFactoryClient" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="DesingPattern.Creational.AbstractDesignPattern.CarFactoryClient" />
       <module name="untitled104" />
@@ -131,12 +121,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="MainClass" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Java8.MainClass" />
+    <configuration name="KnapSack01" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProblemDSA1.KnapSack01" />
       <module name="untitled104" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Java8.*" />
+          <option name="PATTERN" value="ProblemDSA1.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -171,19 +161,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.MainClass" />
       <item itemvalue="Application.CarFactoryClient" />
       <item itemvalue="Application.FactoryDesignPattern" />
       <item itemvalue="Application.TestBuilder" />
       <item itemvalue="Application.TargetSum" />
+      <item itemvalue="Application.KnapSack01" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.KnapSack01" />
         <item itemvalue="Application.TargetSum" />
         <item itemvalue="Application.TestBuilder" />
         <item itemvalue="Application.CarFactoryClient" />
         <item itemvalue="Application.FactoryDesignPattern" />
-        <item itemvalue="Application.MainClass" />
       </list>
     </recent_temporary>
   </component>
